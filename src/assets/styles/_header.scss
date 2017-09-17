@@ -8,12 +8,8 @@
   background: rgba(255,255,255,0.5);
   border-radius: 15px 50px 1px 50px;
 	flex-wrap: wrap;
-  justify-content: center;
-  align-content: space-around;
+  justify-content: space-around;
   //position: fixed;
-  //align-items: center;
-
-
 }
 
 //Header Logo styling
@@ -26,7 +22,7 @@
 	}
 
 	&__list {
-
+    list-style: none;
 	}
 
 	&__link {
@@ -52,12 +48,10 @@
     height: 100px;
 		display: flex;
     align-items: center;
-
 	}
 
 	&__list {
 		list-style: none;
-
 	}
 
 	&__link {
@@ -73,7 +67,6 @@
 			text-decoration: underline;
 		}
 	}
-
 }
 
 .hero-header {
@@ -104,7 +97,6 @@
     border-radius: 15px 50px 30px 5px;
     height: 500px;
     width:  500px;
-
   }
   &__title {
     display: flex;
@@ -115,7 +107,6 @@
     width:  90%;
     border-radius: 15px;
     margin-bottom: 15px;
-
   }
   &__subtitle {
     display: flex;
@@ -126,7 +117,6 @@
     width:  90%;
     border-radius: 15px;
     margin-bottom: 15px;
-
   }
   &__btn {
     display: flex;
@@ -137,6 +127,5 @@
     width:  90%;
     border-radius: 15px;
     margin-bottom: 15px;
-
   }
 }
