@@ -7,9 +7,14 @@
 	//flex-direction: column-reverse;
 
 	&__item {
+		display: flex;
 		flex: 1;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
 		background-color: #fff;
 		margin: 20px;
+		font-size: 40px;
 	}
 
 	&__item:nth-child(2) {
@@ -17,11 +22,25 @@
 	}
 
 	&__item:nth-child(3) {
+		border-radius: 55px;
+		color: #aaa;
+		font-size: 60px;
 		background-color: #333;
+	}
+
+	&__item:nth-child(4) {
+		border-radius: 15px;
+		color: #aaa;
+		font-size: 12px;
 	}
 
 	&__item:nth-child(5) {
 		background-color: #666;
+	}
+
+	&__item:nth-child(6) {
+		color: #eee;
+		background-color: #111;
 	}
 }
 

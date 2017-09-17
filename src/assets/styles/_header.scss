@@ -5,6 +5,7 @@
 	width: 100%;
 	display: flex;
   background-color: #eee;
+  background: rgba(255,255,255,0.5);
 	justify-content:space-around;
   flex-wrap: wrap;
   //align-items: center;
@@ -12,7 +13,7 @@
 
 }
 
-
+//Header Logo styling
 .logo {
 
 	&__row {
@@ -96,6 +97,7 @@
     align-items: center;
     justify-content: center;
     background-color: #eee;
+    background: rgba(220,160,140,0.5);
     height: 500px;
     width:  500px;
 
