@@ -1,0 +1,111 @@
+
+.wyre__card {
+  background-color: #0c55fb;
+  height: 100%;
+  width:100%;
+  margin-bottom: 2px;
+  position: absolute;
+  z-index: 8;
+  border: 4px solid white;
+  box-shadow: 0 5px 14px 0 rgba(1, 1, 1, 0.2);
+  border-radius: 12px 0 12px 0;
+  transform: skewX(-12deg);
+  animation: float 3s infinite ease-in-out;
+  margin-top: -300px;
+  opacity: 0;
+  color: #fff;
+  font-size: 2em;
+  line-height: 1em;
+  padding: 15px 15px 0 15px;
+
+  &:nth-child(2) {
+     left: 20px;
+     top: 15px;
+     z-index: 7;
+     background-color: #0092ff;
+     animation: float 3s infinite ease-in-out;
+     animation-delay: 1.7s;
+   }
+   &:nth-child(3) {
+     left: 40px;
+     top: 30px;
+     z-index: 6;
+     background-color: #94c5ff;
+     animation: float 3s infinite ease-in-out;
+     animation-delay: 2.6s;
+   }
+   &:nth-child(4) {
+      left: -200px;
+      top: 105px;
+      z-index: 7;
+      background-color: #0c55fb;
+      animation: float 3s infinite ease-in-out;
+      animation-delay: 1.2s;
+    }
+    &:nth-child(5) {
+      left: 400px;
+      top: 80px;
+      z-index: 6;
+      background-color: #94c5ff;
+      animation: float 3s infinite ease-in-out;
+      animation-delay: 2.1s;
+    }
+    &:nth-child(6) {
+       left: 250px;
+       top: 205px;
+       z-index: 7;
+       background-color: #0092ff;
+       animation: float 3s infinite ease-in-out;
+       animation-delay: 1.4s;
+     }
+     &:nth-child(7) {
+       left: -400px;
+       top: 180px;
+       z-index: 6;
+       background-color: #0c55fb;
+       animation: float 3s infinite ease-in-out;
+       animation-delay: 2.0s;
+     }
+     &:nth-child(8) {
+        left: 50px;
+        top: 20px;
+        z-index: 7;
+        background-color: #0092ff;
+        animation: float 3s infinite ease-in-out;
+        animation-delay: .7s;
+      }
+      &:nth-child(9) {
+        left: -320px;
+        top: 10px;
+        z-index: 6;
+        background-color: #0c55fb;
+        animation: float 3s infinite ease-in-out;
+        animation-delay: .2s;
+      }
+
+
+
+ }
+ .wyre__cards {
+   position: fixed;
+   width: 120px;
+   height: 120px;
+   left: 50%;
+   top: 50%;
+   transform: translateX(-50%) translateY(-50%);
+ }
+
+ .wyre__pass {
+    color: red;
+  }
+
+ @keyframes float {
+   0% {transform: skew(-12deg) translateY(0);
+   opacity: .0;}
+   10% {transform: skew(-12deg) translateY(0);
+   opacity: 1;}
+   50% {transform: skew(-12deg) translateY(900px);
+   opacity: .0;}
+   100% {transform: skew(-12deg) translateY(0);
+   opacity: .0;}
+ }
