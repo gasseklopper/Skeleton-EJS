@@ -80,7 +80,7 @@
         z-index: 6;
         background-color: #0c55fb;
         animation: float 3s infinite ease-in-out;
-        animation-delay: .2s;
+        animation-delay: .5s;
       }
 
 
@@ -89,7 +89,7 @@
  .wyre__cards {
    position: fixed;
    width: 120px;
-   height: 120px;
+   height: 180px;
    left: 50%;
    top: 50%;
    transform: translateX(-50%) translateY(-50%);
