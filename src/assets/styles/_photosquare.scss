@@ -1,4 +1,9 @@
 .photosquare {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
 
 }
 
@@ -8,15 +13,54 @@
   height:400px;
   overflow: hidden;
   position:relative;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  //clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  margin: 0px;
   //background-color: red;
+  &--form01 {
+    clip-path: polygon(0% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  &--form02 {
+    clip-path: polygon(50% 0%, 100% 5%, 50% 100%, 0% 50%);
+  }
+  &--form03 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 80%, 0% 50%);
+  }
+  &--form04 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 35% 50%);
+  }
+  &--form05 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 15% 20%);
+  }
+  &--form06 {
+    clip-path: polygon(50% 0%, 80% 10%, 50% 100%, 0% 50%);
+  }
+  &--form07 {
+    clip-path: polygon(50% 25%, 60% 50%, 10% 90%, 0% 50%);
+  }
+  &--form08 {
+    clip-path: polygon(10% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  &--form09 {
+    clip-path: polygon(50% 0%, 80% 50%, 50% 90%, 10% 70%);
+  }
+  &--form10 {
+    clip-path: polygon(50% 0%, 80% 50%, 50% 90%, 0% 50%);
+  }
+  &--form11 {
+    clip-path: polygon(50% 0%, 100% 70%, 50% 100%, 0% 50%);
+  }
+  &--form12 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 80%, 0% 90%, 0% 50%);
+  }
 .item {
   width:100%;
   height:100%;
   position:absolute;
   left:0;
   top:0;
-  background-image:  url(https://images.pexels.com/photos/157886/fashionable-girl-in-glasses-in-the-black-pants-157886.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+
+
+//background-image:  url(https://images.pexels.com/photos/157886/fashionable-girl-in-glasses-in-the-black-pants-157886.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
   background-size:cover;
   background-position:center;
   mix-blend-mode: screen;
@@ -24,13 +68,57 @@
   transition: transform 0.3s;
   z-index: 66;
   //background-color: blue;
+  &--image01 {
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    background-image:  url(../images/photosquare/Stills_001.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image02 {
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    background-image:  url(../images/photosquare/Stills_002.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image03 {
+    background-image:  url(../images/photosquare/Stills_003.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image04 {
+    background-image:  url(../images/photosquare/Stills_019.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image05 {
+    background-image:  url(../images/photosquare/Stills_005.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image06 {
+    background-image:  url(../images/photosquare/Stills_006.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image07 {
+    background-image:  url(../images/photosquare/Stills_007.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image08 {
+    background-image:  url(../images/photosquare/Stills_018.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image09 {
+    background-image:  url(../images/photosquare/Stills_017.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image10 {
+    background-image:  url(../images/photosquare/Stills_016.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image11 {
+    background-image:  url(../images/photosquare/Stills_015.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+  &--image12 {
+    background-image:  url(../images/photosquare/Stills_012.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
   &--r {
     background-color:red;
     transform:translate(3px, -3px);
   }
   &--g {
     background-color:green;
-    transform:translate(-3px, -3px);
+    transform:translate(-13px, -3px);
   }
   &--b {
     background-color:blue;
