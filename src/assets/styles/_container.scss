@@ -65,6 +65,21 @@
 	}
 }
 
+.photo_container01 {
+	display: flex;
+	&__item1 {
+		flex: 1;
+
+	}
+
+	&__item2 {
+		font-size: 25px;
+		flex: 1;
+	}
+	&__item:nth-child(3) {
+	}
+}
+
 .flex-container {
 	padding: 0;
  	margin: 0;

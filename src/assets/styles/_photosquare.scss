@@ -1,4 +1,13 @@
+.selected--h1 {
+  color: #fff;
+text-align: center;
+font-size: 125px;
+font-weight: bold;
+text-shadow: 0 0 13px #7FFF00, 0 0 35px #00FFFF;
+
+  }
 .photosquare {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,6 +67,8 @@
   position:absolute;
   left:0;
   top:0;
+  color: #000;
+   text-shadow: 0px 0px;
 
 
 //background-image:  url(https://images.pexels.com/photos/157886/fashionable-girl-in-glasses-in-the-black-pants-157886.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
@@ -128,4 +139,23 @@
 &:hover .item{
     transform:translate(0px, 0px) !important;
   }
+}
+
+
+a.button {
+	display: inline-block;
+	margin: 50px 0;
+	padding: 6px 10px;
+	background: #2875ed;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.classNames {
+	background: #2875ed;
 }
