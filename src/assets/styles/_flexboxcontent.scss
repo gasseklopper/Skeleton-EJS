@@ -1,15 +1,19 @@
 .flexboxcontent {
   display: flex;
   flex-flow: wrap;
-  &__item {
-    margin-top: 1em;
-  }
   &__wrapper {
+    margin-top: 1em;
+    //background-color: red;
+    //margin-top: -25px;
+  }
+  &__item {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     height: 100%;
     background-color: grey;
+    box-shadow: 10px 10px 25px 10px #ccc;
+
   }
   .h1 {
     background-color: grey;
@@ -20,11 +24,40 @@
   }
   &__content {
     height: 100%;
-    background-color: grey;
     align-self: center;
     padding: $gutter/2;
   }
   &__cta {
-align-self: center;
+    align-self: center;
+  }
+}
+
+
+.flexboxcontent1 {
+  display: flex;
+  flex-flow: wrap;
+   width: 100%;
+
+  &__item {
+    min-width: 80px;
+min-height: 80px;
+border: 1px solid black;
+}
+    &__item:nth-child(1){
+    flex: 4;
+    background-color: red;
+
+    }
+    &__item:nth-child(2){
+    flex: 4;
+    }
+    &__item:nth-child(3){
+    flex: 4;
+    }
+  .h1 {
+    }
+  &__content {
+  }
+  &__cta {
   }
 }
