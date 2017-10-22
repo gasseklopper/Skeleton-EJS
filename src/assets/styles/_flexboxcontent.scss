@@ -5,6 +5,7 @@
     //margin-top: 1em;
     //background-color: red;
     //margin-top: -25px;
+    //margin-bottom: 12em;
   }
   &__item {
     display: flex;
@@ -16,7 +17,7 @@
 
   }
   .img {
-    align-self: center;
+    //align-self: center;
   }
   .h1 {
     font-size: 2.3em;
@@ -39,10 +40,21 @@
     align-self: center;
     padding: $gutter/2;
   }
+  &__centerimg {
+    align-self: center;
+
+  }
   &__thin {
+    padding-top: $gutter/2;
     display: flex;
     //background-color: red;
     justify-content: space-around;
+
+  }
+  &__thin1 {
+    display: flex;
+    //background-color: red;
+    justify-content: flex-end;
   }
   &__cta {
     align-self: center;
@@ -50,35 +62,4 @@
   .column {
     padding: .3rem;
 }
-}
-
-
-.flexboxcontent1 {
-  padding-top: $gutter*2;
-  display: flex;
-  flex-flow: wrap;
-   width: 100%;
-
-  &__item {
-    min-width: 80px;
-min-height: 80px;
-border: 1px solid black;
-}
-    &__item:nth-child(1){
-    flex: 4;
-    background-color: red;
-
-    }
-    &__item:nth-child(2){
-    flex: 4;
-    }
-    &__item:nth-child(3){
-    flex: 4;
-    }
-  .h1 {
-    }
-  &__content {
-  }
-  &__cta {
-  }
 }
