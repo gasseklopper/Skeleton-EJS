@@ -4,7 +4,7 @@
   //flex-flow: wrap;
   &__left {
     background-color: red;
-    height: 680px;
+    height: 580px;
     width: 50%;
   }
    &__right {
@@ -12,11 +12,11 @@
       background-image:  url(../images/header-004.jpg);
       background-size: 100%;
       background-repeat: no-repeat;
-      flex-shrink: 1;
+      //flex-shrink: 1;
       //flex-shrink: 0;
       //width: 50%;
       width: 50%;
-      height: 580px;
+      height: 800px;
       @media (max-width: $bpXXL) {
         background-image:  url(../images/header-003.jpg);
         background-size: 100%;
