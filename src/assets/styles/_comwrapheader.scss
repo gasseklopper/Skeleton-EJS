@@ -1,0 +1,87 @@
+.comwrapheader {
+  display: flex;
+    margin-bottom: 100px;
+  //flex-flow: wrap;
+  &__left {
+    background-color: red;
+    height: 680px;
+    width: 50%;
+  }
+   &__right {
+      background-color: green;
+      background-image:  url(../images/header-004.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      flex-shrink: 1;
+      //flex-shrink: 0;
+      //width: 50%;
+      width: 50%;
+      height: 580px;
+      @media (max-width: $bpXXL) {
+        background-image:  url(../images/header-003.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-shrink: 1;
+        background-color: blue;
+      }
+      @media (max-width: $bpXL) {
+        background-color: green;
+      }
+      @media (max-width: $bpL) {
+        background-image:  url(../images/header-001.jpg);
+        background-color: black;
+      }
+      @media (max-width: $bpS) {
+        background-color: yellow;
+      }
+      @media (max-width: $bpXS) {
+        background-color: purple;
+      }
+      @media (max-width: $bpXXS) {
+        background-color: blue;
+      }
+    }
+}
+
+.comwrapheader1 {display: flex;
+  //flex-flow: wrap;
+  &__left {
+    background-color: red;
+    height: 680px;
+    width: 50%;
+  }
+   &__right {
+      background-color: green;
+      background-image:  url(../images/header1-004.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      flex-shrink: 1;
+      //flex-shrink: 0;
+      //width: 50%;
+      width: 50%;
+      height: 580px;
+      @media (max-width: $bpXXL) {
+        background-image:  url(../images/header1-003.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-shrink: 1;
+        background-color: blue;
+      }
+      @media (max-width: $bpXL) {
+        background-color: green;
+      }
+      @media (max-width: $bpL) {
+        background-image:  url(../images/header1-001.jpg);
+        background-color: black;
+      }
+      @media (max-width: $bpS) {
+        background-color: yellow;
+      }
+      @media (max-width: $bpXS) {
+        background-color: purple;
+      }
+      @media (max-width: $bpXXS) {
+        background-color: blue;
+      }
+    }
+}
