@@ -3,9 +3,17 @@
     margin-bottom: 100px;
   //flex-flow: wrap;
   &__left {
+    background-image:  url(../images/header-004.jpg);
     background-color: red;
+    background-size: 200%;
+    background-repeat: no-repeat;
+ background-blend-mode: multiply;
+ opacity: 0.3;
+ flex-shrink: 1;
+    opacity: 0.5;
     height: 580px;
     width: 50%;
+    background-size: 160%;
   }
    &__right {
       background-color: green;
@@ -25,7 +33,7 @@
         background-color: blue;
       }
       @media (max-width: $bpXL) {
-        background-color: green;
+        background-color: grey;
       }
       @media (max-width: $bpL) {
         background-image:  url(../images/header-001.jpg);
@@ -130,17 +138,27 @@
     }
 }
 
-.comwrapheader3 {display: flex;
+
+.comwrapheader3 {
+  display: flex;
   //flex-flow: wrap;
   margin-bottom: 100px;
+  background-image:  url(../images/header3-004.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: red;
+   background-blend-mode: multiply;
   &__left {
-    background-color: red;
+    //background-color: red;
+     background-blend-mode: multiply;
+    //opacity: 0.5;
     height: 680px;
     width: 50%;
   }
    &__right {
       background-color: green;
-      background-image:  url(../images/header3-004.jpg);
+      //background-image:  url(../images/header3-004.jpg);
+      opacity: 0.3;
       background-size: 100%;
       background-repeat: no-repeat;
       flex-shrink: 1;
@@ -149,17 +167,17 @@
       width: 50%;
       height: 580px;
       @media (max-width: $bpXXL) {
-        background-image:  url(../images/header3-003.jpg);
+        //background-image:  url(../images/header3-003.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        flex-shrink: 1;
+        flex-shrink: 0;
         background-color: blue;
       }
       @media (max-width: $bpXL) {
         background-color: green;
       }
       @media (max-width: $bpL) {
-        background-image:  url(../images/header3-001.jpg);
+        //background-image:  url(../images/header3-001.jpg);
         background-color: black;
       }
       @media (max-width: $bpS) {

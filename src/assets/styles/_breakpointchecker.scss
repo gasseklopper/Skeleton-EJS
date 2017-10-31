@@ -1,0 +1,96 @@
+.breakpointchecker {
+  //background-color: green;
+  width:100%;
+  height: 100px;
+  position:fixed;
+  top:100px;
+  z-index: 100;
+  &__checkerbox {
+    display: flex;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  &__left {
+    display: flex;
+    background-color: green;
+    width:50%;
+    opacity: .4;
+    @media (max-width: $bpXXL) {
+      background-color: blue;
+    }
+    @media (max-width: $bpXL) {
+      background-color: grey;
+    }
+    @media (max-width: $bpL) {
+      background-color: black;
+    }
+    @media (max-width: $bpS) {
+      background-color: yellow;
+    }
+    @media (max-width: $bpXS) {
+      background-color: purple;
+    }
+    @media (max-width: $bpXXS) {
+      background-color: blue;
+    }
+  }
+  &__item {
+    width: 10%;
+    height: 10px;
+    background-color: black;
+    opacity: 1;
+    align-self: flex-end;
+    &:nth-child(even) {
+    background: white;
+}
+  }
+  &__right {
+    display: flex;
+    background-color: green;
+    width:50%;
+    @media (max-width: $bpXXL) {
+      background-color: blue;
+    }
+    @media (max-width: $bpXL) {
+      background-color: grey;
+    }
+    @media (max-width: $bpL) {
+      background-color: black;
+    }
+    @media (max-width: $bpS) {
+      background-color: yellow;
+    }
+    @media (max-width: $bpXS) {
+      background-color: purple;
+    }
+    @media (max-width: $bpXXS) {
+      background-color: blue;
+    }
+  }
+
+
+  &__h4 {
+    margin-top: 15px;
+    text-align: center;
+    @media (max-width: $bpXXL) {
+      color: blue;
+    }
+    @media (max-width: $bpXL) {
+      color: grey;
+    }
+    @media (max-width: $bpL) {
+      color: black;
+    }
+    @media (max-width: $bpS) {
+      color: yellow;
+    }
+    @media (max-width: $bpXS) {
+      color: purple;
+    }
+    @media (max-width: $bpXXS) {
+      color: blue;
+    }
+  }
+}
